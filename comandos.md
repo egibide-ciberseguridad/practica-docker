@@ -72,3 +72,16 @@ service apache2 start
 ```
 
 Hacer que el contenedor [arranque el servicio](https://stackoverflow.com/a/44377561/14378620) en primer plano.
+
+## Publicar en Docker Hub
+
+[Referencia](https://www.tutorialspoint.com/publishing-a-docker-image-on-dockerhub).
+
+```bash
+docker login
+docker images | grep apache
+docker tag practica-docker_apache widemos/practica-docker:latest
+docker push widemos/practica-docker:latest
+```
+
+[Imagen publicada](https://hub.docker.com/r/widemos/practica-docker).
