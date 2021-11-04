@@ -3,7 +3,7 @@
 Crear el repositorio y clonarlo:
 
 ```bash
-git clone https://github.com/egibide-dam/practica-docker.git
+git clone https://github.com/egibide-ciberseguridad/practica-docker.git
 ```
 
 Crear la carpeta y la página web:
